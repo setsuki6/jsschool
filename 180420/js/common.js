@@ -59,6 +59,11 @@ console.log(e <= f)
 console.log(e >= f)
 console.log(!(e === f))
 console.log(!(d > f))
+console.log(1 + 1 === 2) //true
+console.log(1 + 2 === 2) //false
+console.log(2 + 2 === 4) //true
+console.log(2 % 2 === 0)
+
 
 var h = d === e
 console.log(!h)
