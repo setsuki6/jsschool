@@ -243,12 +243,22 @@ console.log('numAryを足した合計の値は' + getTotalNum() + 'です。')
 
 //問5
 function shortString(str){
-    
     if(str.length > 4){
-       str.slice(0, 3) + '...'
-        return str
+       return str.slice(0, 4) + '…'
        }
     return str
 }
 
-console.log(shortString())
+console.log(shortString('123456'))
+
+
+//問6
+
+function num6(num){
+    for(var i = 0; i < num.length; i++){
+        
+    }
+    
+}
+
+console.log(num6())
