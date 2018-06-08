@@ -1,0 +1,16 @@
+/*
+.content.on{
+    background: red;
+}
+*/
+
+
+.content .item {
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+content.on .item {
+    height: 100px;
+}

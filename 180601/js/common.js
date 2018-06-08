@@ -88,3 +88,38 @@ function startJanken(){
 }
 console.log(startJanken())
 
+////問6
+//
+//function num(num1){
+//    
+//    for(var i = num1.length; i > 0; i--){
+//        if(num1.length % i === 0){
+//    console.log(i)
+//    }
+//    }
+//}
+//console.log(num('1234'))
+
+
+
+
+function cutNumber(num){
+    var numString = num.toString()
+    var str = ''
+    
+    for(
+        var i = numString.length - 1 , j = 1;
+        i >= 0;
+        i--, j++
+       ){
+        str = numString[i] + str
+        
+        if(j % 3 === 0 && i !== 0){
+           str = ',' + str;
+        }
+        }
+    return str
+}
+
+console.log(cutNumber(1234567890))
+
