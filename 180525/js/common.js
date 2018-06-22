@@ -189,11 +189,11 @@ for(var i = 0; i < users.length; i++){
 }
 console.log(s)
 
+
+//三項演算子
 //console.log(s)
 //var test = 0
 //console.log(1 === 1 ? true : false)
-
-//三項演算子
 var s = {
     otoko: [],
     onna: [],
